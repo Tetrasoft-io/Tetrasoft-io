@@ -10,7 +10,8 @@ export const state = () => ({
             title: 'Tetrasoft.io',
             summary: 'The site you\'re looking at right now! A static blog and portfolio built with Vue.js, generated with Nuxt.js, and hosted on netlify.',
             links: {
-                github: 'https://github.com/CPSibo/Chrysalis',
+                github: 'https://github.com/Tetrasoft-io/Tetrasoft-io',
+                site: 'https://tetrasoft.io'
             },
             tags: [
                 tags.programming,

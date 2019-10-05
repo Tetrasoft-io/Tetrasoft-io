@@ -104,6 +104,21 @@ export default {
     */
     extend (config, ctx) {
     },
+    extractCSS: true,
+    analyze: process.env.NODE_ENV === 'development',
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true
+      },
+    },
   },
   render: {
     bundleRenderer: {

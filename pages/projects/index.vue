@@ -268,4 +268,7 @@ export default {
     .project-tag
         &:first-child
             margin-left: 0 !important
+
+    .v-chip__filter
+        display: none !important
 </style>

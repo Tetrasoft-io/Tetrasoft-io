@@ -54,7 +54,8 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-webfontloader',
   ],
   /*
   ** Axios module configuration
@@ -86,6 +87,9 @@ export default {
       iconfont: 'fa'
     },
     treeshake: true,
+    defaultAssets: {
+      icons: false,
+    },
   },
   /*
   ** Build configuration

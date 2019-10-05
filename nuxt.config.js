@@ -35,7 +35,9 @@ export default {
   ** Global CSS
   */
   css: [
-    '@fortawesome/fontawesome-pro/css/all.css',
+    '@fortawesome/fontawesome-pro/css/fontawesome.css',
+    '@fortawesome/fontawesome-pro/css/brands.css',
+    '@fortawesome/fontawesome-pro/css/regular.css',
     'devicon/devicon.css',
   ],
   /*

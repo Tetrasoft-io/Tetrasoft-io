@@ -2,19 +2,19 @@ export const state = () => ({
     // Categories
     programming: {
         name: 'programming',
-        icon: 'fas fa-code',
+        icon: 'far fa-code',
         iconColor: '#336d9d'
     },
-    
+
     media: {
         name: 'media',
-        icon: 'fas fa-photo-video',
+        icon: 'far fa-photo-video',
         iconColor: '#336d9d'
     },
 
     game: {
         name: 'games',
-        icon: 'fas fa-gamepad',
+        icon: 'far fa-gamepad',
         iconColor: '#336d9d'
     },
 

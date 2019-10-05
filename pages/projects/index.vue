@@ -39,7 +39,8 @@
 
         <v-scale-y-transition
             group
-            tag="v-row"
+            tag="div"
+            class="row"
             name="projects"
         >
             <v-col

@@ -105,6 +105,7 @@
                                     :href="item.links.github" 
                                     target="_blank"
                                     rel="noopener"
+                                    aria-label="Go to this project's GitHub page"
                                     v-on="on"
                                 >
                                     <v-icon>fab fa-github</v-icon>
@@ -121,6 +122,7 @@
                                     :href="item.links.bitbucket" 
                                     target="_blank"
                                     rel="noopener"
+                                    aria-label="Go to this project's Bitbucket page"
                                     v-on="on"
                                 >
                                     <v-icon>fab fa-bitbucket</v-icon>
@@ -137,6 +139,7 @@
                                     :href="item.links.docker" 
                                     target="_blank"
                                     rel="noopener"
+                                    aria-label="Go to this project's docker-hub page"
                                     v-on="on"
                                 >
                                     <v-icon>fab fa-docker</v-icon>
@@ -153,6 +156,7 @@
                                     :href="item.links.docs" 
                                     target="_blank"
                                     rel="noopener"
+                                    aria-label="Go to this project's documentation"
                                     v-on="on"
                                 >
                                     <v-icon>fas fa-book</v-icon>
@@ -169,6 +173,7 @@
                                     :href="item.links.site" 
                                     target="_blank"
                                     rel="noopener"
+                                    aria-label="Go to this project's official site"
                                     v-on="on"
                                 >
                                     <v-icon>fas fa-link</v-icon>

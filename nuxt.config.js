@@ -35,10 +35,10 @@ export default {
   ** Global CSS
   */
   css: [
-    '@fortawesome/fontawesome-pro/css/fontawesome.css',
-    '@fortawesome/fontawesome-pro/css/brands.css',
-    '@fortawesome/fontawesome-pro/css/regular.css',
-    'devicon/devicon.css',
+    '@fortawesome/fontawesome-pro/css/fontawesome.min.css',
+    '@fortawesome/fontawesome-pro/css/brands.min.css',
+    '@fortawesome/fontawesome-pro/css/regular.min.css',
+    'devicon/devicon.min.css',
   ],
   /*
   ** Plugins to load before mounting the App

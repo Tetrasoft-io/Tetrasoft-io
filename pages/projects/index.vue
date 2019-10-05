@@ -159,7 +159,7 @@
                                     aria-label="Go to this project's documentation"
                                     v-on="on"
                                 >
-                                    <v-icon>fas fa-book</v-icon>
+                                    <v-icon>far fa-book</v-icon>
                                 </v-btn>
                             </template>
                             <span>Documentation</span>
@@ -176,7 +176,7 @@
                                     aria-label="Go to this project's official site"
                                     v-on="on"
                                 >
-                                    <v-icon>fas fa-link</v-icon>
+                                    <v-icon>far fa-link</v-icon>
                                 </v-btn>
                             </template>
                             <span>Site</span>

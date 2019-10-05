@@ -66,7 +66,7 @@
 
                             <div 
                                 class="title font-weight-regular" 
-                                v-text="item.summary" 
+                                v-html="item.summary" 
                             />
                         </v-col>
                     </v-row>
@@ -95,7 +95,7 @@
                     <v-divider class="mb-2" />
 
                     <v-card-actions>
-                        <v-btn class="primary" :to="'/projects/' + item.name" nuxt>
+                        <v-btn class="primary" :to="item.url || '/projects/' + item.name" nuxt>
                             Project Details
                         </v-btn>
 

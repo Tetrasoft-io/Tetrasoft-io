@@ -82,7 +82,8 @@
 
 
     <v-footer app inset>
-      <span>&copy; 2019</span>
+      <v-spacer />
+      <span>&copy; {{ year }} tetrasoft.io</span>
     </v-footer>
   </v-app>
 </template>
@@ -113,19 +114,25 @@ export default {
           exact: true,
         },
         {
-          icon: 'far fa-hammer',
+          icon: 'far fa-cubes',
           title: 'Projects',
           to: '/projects',
           exact: false,
         },
         {
-          icon: 'far fa-newspaper',
+          icon: 'far fa-poll-h',
           title: 'Blog',
           to: '/blog',
           exact: false,
         },
       ],
     }
-  }
+  },
+
+  computed: {
+    year(){
+      return new Date().getFullYear()
+    },
+  },
 }
 </script>

@@ -14,7 +14,7 @@ export const state = () => ({
 
     game: {
         name: 'games',
-        icon: 'far fa-gamepad',
+        icon: 'far fa-gamepad-alt',
         iconColor: '#336d9d'
     },
 

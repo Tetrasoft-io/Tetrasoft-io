@@ -11,7 +11,6 @@
         @click.stop="drawer = !drawer" 
         v-show="$vuetify.breakpoint.smAndDown"
         aria-label="Show nav drawer"
-        class="far"
       />
       <v-img
         class="mx-2"

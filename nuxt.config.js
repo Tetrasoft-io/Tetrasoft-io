@@ -1,5 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
+
 export default {
   mode: 'spa',
   /*
@@ -35,17 +36,16 @@ export default {
   ** Global CSS
   */
   css: [
+    'devicon/devicon.min.css',
     '@fortawesome/fontawesome-pro/css/fontawesome.min.css',
     '@fortawesome/fontawesome-pro/css/brands.min.css',
-    '@fortawesome/fontawesome-pro/css/solid.min.css',
     '@fortawesome/fontawesome-pro/css/regular.min.css',
-    'devicon/devicon.min.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/vuetify-transitions'
+    '~/plugins/vuetify-transitions',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -90,7 +90,14 @@ export default {
       }
     }, 
     icons: {
-      iconfont: 'fa'
+      iconfont: 'fa',
+      values: {
+        checkboxOn: 'far fa-check-square',
+        checkboxOff: 'far fa-square',
+        checkboxIndeterminate: 'far fa-minus-square',
+        menu: 'far fa-bars',
+        complete: 'far fa-check',
+      },
     },
     defaultAssets: {
       icons: false,

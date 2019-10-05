@@ -131,8 +131,12 @@ export default {
   render: {
     bundleRenderer: {
       shouldPreload: (file, type) => {
-        if (type === 'font') return /\.woff2?/.test(file)
-        return ['script', 'style', 'font'].includes(type)
+        if(['script', 'style', 'font'].includes(type))
+          return true
+        else if(/\.woff2?/.test(file))
+          return true
+
+        return false
       }
     }
   }

@@ -104,6 +104,7 @@
                                     v-if="item.links.github" 
                                     :href="item.links.github" 
                                     target="_blank"
+                                    rel="noopener"
                                     v-on="on"
                                 >
                                     <v-icon>fab fa-github</v-icon>
@@ -119,6 +120,7 @@
                                     v-if="item.links.bitbucket" 
                                     :href="item.links.bitbucket" 
                                     target="_blank"
+                                    rel="noopener"
                                     v-on="on"
                                 >
                                     <v-icon>fab fa-bitbucket</v-icon>
@@ -134,6 +136,7 @@
                                     v-if="item.links.docker" 
                                     :href="item.links.docker" 
                                     target="_blank"
+                                    rel="noopener"
                                     v-on="on"
                                 >
                                     <v-icon>fab fa-docker</v-icon>
@@ -149,6 +152,7 @@
                                     v-if="item.links.docs" 
                                     :href="item.links.docs" 
                                     target="_blank"
+                                    rel="noopener"
                                     v-on="on"
                                 >
                                     <v-icon>fas fa-book</v-icon>
@@ -164,6 +168,7 @@
                                     v-if="item.links.site" 
                                     :href="item.links.site" 
                                     target="_blank"
+                                    rel="noopener"
                                     v-on="on"
                                 >
                                     <v-icon>fas fa-link</v-icon>

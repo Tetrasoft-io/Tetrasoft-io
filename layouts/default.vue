@@ -10,6 +10,7 @@
       <v-app-bar-nav-icon 
         @click.stop="drawer = !drawer" 
         v-show="$vuetify.breakpoint.smAndDown"
+        aria-label="Show nav drawer"
       />
       <v-toolbar-title v-text="title" />
 

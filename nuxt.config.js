@@ -85,6 +85,7 @@ export default {
     icons: {
       iconfont: 'fa'
     },
+    treeshake: true,
   },
   /*
   ** Build configuration

@@ -13,7 +13,16 @@
         aria-label="Show nav drawer"
         class="far"
       />
-      <v-toolbar-title v-text="title" />
+      <v-img
+        class="mx-2"
+        max-height="40"
+        max-width="40"
+        contain
+        src="/images/projects/tetrasoft/logo.svg"
+      />
+      <v-toolbar-title>
+        {{ title }}
+      </v-toolbar-title>
 
       <v-toolbar-items 
         class="ml-10 md-only"

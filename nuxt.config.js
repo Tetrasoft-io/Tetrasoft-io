@@ -37,6 +37,7 @@ export default {
   css: [
     '@fortawesome/fontawesome-pro/css/fontawesome.min.css',
     '@fortawesome/fontawesome-pro/css/brands.min.css',
+    '@fortawesome/fontawesome-pro/css/solid.min.css',
     '@fortawesome/fontawesome-pro/css/regular.min.css',
     'devicon/devicon.min.css',
   ],

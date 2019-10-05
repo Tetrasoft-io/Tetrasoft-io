@@ -6,7 +6,7 @@ export const state = () => ({
         {
             name: 'tetrasoft-io',
             color: '#37505d',
-            src: '/images/projects/chrysalis/chrysalis.svg',
+            src: '/images/projects/tetrasoft/logo.svg',
             title: 'Tetrasoft.io',
             summary: 'The site you\'re looking at right now! A static blog and portfolio built with Vue.js, generated with Nuxt.js, and hosted on netlify.',
             links: {

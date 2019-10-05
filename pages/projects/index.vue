@@ -6,7 +6,7 @@
         <v-row>
             <v-col cols="12">
                 <v-card
-                    color="grey darken-2"
+                    color="blue-grey darken-3"
                     dark
                 >
                     <v-card-title class="display-1">Filter by tags</v-card-title>
@@ -23,6 +23,7 @@
                                 v-for="tag in tags" 
                                 :key="tag.name"
                                 :value="tag.name"
+                                class="grey darken-1"
                                 filter
                                 dark
                             >
@@ -75,7 +76,7 @@
                     >
                         <v-chip
                             dark
-                            class="ma-1 project-tag"
+                            class="grey darken-1 ma-1 project-tag"
                             small
                             filter
                             active-class="primary text--lighten-4"
@@ -90,6 +91,8 @@
                             {{ tag.name }}
                         </v-chip>
                     </v-card-text>
+
+                    <v-divider class="mb-2" />
 
                     <v-card-actions>
                         <v-btn class="primary" :to="'/projects/' + item.name" nuxt>

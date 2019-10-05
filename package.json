@@ -24,6 +24,7 @@
     "devicon": "^2.2.0",
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
-    "nuxt-webfontloader": "^1.1.0"
+    "nuxt-webfontloader": "^1.1.0",
+    "webpack-bundle-analyzer": "^3.5.2"
   }
 }

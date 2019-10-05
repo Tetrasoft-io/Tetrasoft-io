@@ -91,7 +91,6 @@ export default {
     icons: {
       iconfont: 'fa'
     },
-    treeshake: true,
     defaultAssets: {
       icons: false,
     },
@@ -104,7 +103,7 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    }
+    },
   },
   render: {
     bundleRenderer: {

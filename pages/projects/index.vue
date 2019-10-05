@@ -15,19 +15,19 @@
                         <v-chip-group
                             multiple
                             column
-                            active-class="primary--text"
+                            active-class="primary text--lighten-4"
                             v-model="tagFilters"
-                            light
+                            dark
                         >
                             <v-chip 
                                 v-for="tag in tags" 
                                 :key="tag.name"
                                 :value="tag.name"
                                 filter
-                                light
+                                dark
                             >
-                                <v-avatar left>
-                                    <v-icon :color="tag.iconColor">{{ tag.icon }}</v-icon>
+                                <v-avatar>
+                                    <v-icon left>{{ tag.icon }}</v-icon>
                                 </v-avatar>
                                 {{ tag.name }}
                             </v-chip>
@@ -74,17 +74,18 @@
                         class="pl-2"
                     >
                         <v-chip
-                            light
+                            dark
                             class="ma-1 project-tag"
                             small
                             filter
+                            active-class="primary text--lighten-4"
                             :input-value="tagIsInFilter(tag.name)"
                             @click="addTagToFilter(tag.name)"
                             v-for="tag in item.tags"
                             :key="tag.name"
                         >
                             <v-avatar left>
-                                <v-icon :color="tag.iconColor" small>{{ tag.icon }}</v-icon>
+                                <v-icon small>{{ tag.icon }}</v-icon>
                             </v-avatar>
                             {{ tag.name }}
                         </v-chip>
